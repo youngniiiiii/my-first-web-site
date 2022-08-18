@@ -3,38 +3,46 @@
 <head>
   <title>youngni html 탭</title>
   <meta charset="utf-8">
-  <style>
-  a {
-    color:red;
-  }
-</style>
-  
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <Body>
-<h1><a href="index.html">WEB</a></h1>
+  <h1><a href="index.html">WEB</a></h1>
 
-<ol>
-  <li><a href="1.html">HTML</a> 앞에 숫자 자동 넣어주는 ol태그</li>
-  <li><a href="2.html">CSS</a> 부모자식 코드로 2대가 같이다님</li>
-  <li><a href="3.html">JavaScript</a></li>
-</ol>
-
-<h2>HTML</h2>
-The initial blog post on this study was published on CSS-Tricks.
-Part two of the CSS-Tricks series, with random interesting facts on HTML/SVG usage.
-The average web page study and what it means for modern SEO, on Moz.
-
-<p style="margin-top:50px;"> The initial blog post on this study was published on CSS-Tricks.
-Part two of the CSS-Tricks series, with random interesting facts on HTML/SVG usage.
-The average web page study and what it means for motial blog post on this study was published on CSS-Tricks.
-Part two of the CSS-Tricks series, with random interesting facts on HTML/SVG usage.
-The average web page study and what it means for modern</p>
-
-<img src="un1.jpg"width="100%">
-<parent>
-  <child>
+  <div id="grid">
+  <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+        <li><a onclick="callAlert()">메롱</a></li>
+  </ol>
+      <!--
+        <ol>
+        <li><a href="1.html">HTML</a> 앞에 숫자 자동 넣어주는 ol태그</li>
+        <li><a href="2.html">CSS</a> 부모자식 코드로 2대가 같이다님</li>
+        <li><a href="3.html">JavaScript</a></li>
+      </ol>
+      -->
+  <div id="article">
+          <h2>HTML</h2>
+          <p>
+            The initial blog post on this study was published on CSS-Tricks.
+            Part two of the CSS-Tricks series, with random interesting facts on HTML/SVG usage.
+            The average web page study and what it means for modern SEO, on Moz.The initial blog post on this study was published on CSS-Tricks.
+            Part two of the CSS-Tricks series, with random interesting facts on HTML/SVG usage.
+            The average web page study and what it means for modern SEO, on Moz.
+          </p>
+    <div>
+  </div>
 </Body>
 </html>
 
-<h2><a href="https://www.w3.org/TR/2011/WD-html5-20110405/"target="_blank" title="html site">link</a></h2>
+
+
+
+
+
+<script type="text/javascript">
+  function callAlert() {
+    alert("메~~~롱");
+  }
+</script>
